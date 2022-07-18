@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 300;
+}
+html {
+  font-size: 63%;
+}
+.main {
+  width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: rgb(27, 240, 236);
+}
+.in {
+  width: 40vw;
+  color: greenyellow;
+  background-color: rgb(9, 9, 9);
+  padding: 30px 80px;
+  border-radius: 12px;
+  box-shadow: 0 10px 10px -7px rgb(32, 5, 5);
+}
+.in h2 {
+  font-size: 35px;
+  font-weight: 400;
+  margin: 10px 0 40px 0;
+}
+
+.in li {
+  font-size: 20px;
+  margin-top: 15px;
+  list-style: none;
+}
+input {
+  cursor: pointer;
+}
+#submit,
+.btn {
+  padding: 10px 30px;
+  outline: none;
+  font-size: 20px;
+  font-size: 400;
+  display: block;
+  margin: auto;
+  text-transform: uppercase;
+  color: rgb(8, 8, 8);
+  background-color: rgb(0, 255, 51);
+  margin-top: 40px;
+  cursor: pointer;
+  border: 5px solid rgb(25, 24, 25);
+  border-radius: 14px;
+}
+
+#submit:hover {
+  color: crimson;
+  background-color: rgb(19, 20, 20);
+  border: 5px solid crimson;
+  border-radius: 14px;
+}
+#showscore {
+  background: rgb(14, 14, 14);
+  margin-top: 30px;
+  padding: 30px 40px;
+  box-shadow: 0 10px 10px -7px rgb(32, 5, 5);
+  border: 4px solid crimson;
+  border-radius: 19px;
+}
+#showscore h3 {
+  font-size: 30px;
+  text-align: center;
+}
+#showscore .btn {
+  margin-top: 20px;
+  background-color: crimson;
+  color: black;
+}
+#showscore .btn:hover {
+  color: crimson;
+  background-color: rgb(19, 20, 20);
+  border: 5px solid crimson;
+  border-radius: 14px;
+}
+.scoreArea {
+  display: none;
+}
+
+/* Responsive design */
+
+@media (max-width: 991px) {
+  .max-width {
+    padding: 0 50px;
+  }
+}
+@media (max-width: 690px) {
+  .main,
+  .in {
+    padding: 0 25px;
+  }
+  .home .home-content .text-2 {
+    font-size: 60px;
+  }
+  .question {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 500px) {
+  .menu,
+  .in {
+    font-size: 50px;
+  }
+  .menu .in .question {
+    font-size: 27px;
+  }
+}
