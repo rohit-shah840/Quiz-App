@@ -87,33 +87,3 @@ input {
 .scoreArea {
   display: none;
 }
-
-/* Responsive design */
-
-@media (max-width: 991px) {
-  .max-width {
-    padding: 0 50px;
-  }
-}
-@media (max-width: 690px) {
-  .main,
-  .in {
-    padding: 0 25px;
-  }
-  .home .home-content .text-2 {
-    font-size: 60px;
-  }
-  .question {
-    font-size: 32px;
-  }
-}
-
-@media (max-width: 500px) {
-  .menu,
-  .in {
-    font-size: 50px;
-  }
-  .menu .in .question {
-    font-size: 27px;
-  }
-}
